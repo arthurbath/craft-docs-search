@@ -1,5 +1,9 @@
 # Craft Docs Search Changelog
 
+## [Quicklink Creation] - 2026-07-19
+
+- Create a Raycast Quicklink directly from a Craft doc search result.
+
 ## [Initial Release] - {PR_MERGE_DATE}
 
 - Search Craft docs by title from Raycast.

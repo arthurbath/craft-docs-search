@@ -91,11 +91,20 @@ function CraftActions({ result }: { result: CraftDocumentResult }) {
         onAction={() => openCraftResult(result)}
       />
       {result.url ? (
-        <Action
-          title="Copy Craft Link"
-          icon={Icon.Clipboard}
-          onAction={() => copyCraftLink(result)}
-        />
+        <>
+          <Action.CreateQuicklink
+            quicklink={{
+              name: result.title,
+              link: result.url,
+              icon: Icon.Document,
+            }}
+          />
+          <Action
+            title="Copy Craft Link"
+            icon={Icon.Clipboard}
+            onAction={() => copyCraftLink(result)}
+          />
+        </>
       ) : null}
     </ActionPanel>
   );
