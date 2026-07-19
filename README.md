@@ -20,4 +20,4 @@ Search Craft docs from Raycast by title or tag.
 
 ## Usage
 
-Use `Search Docs` to search for docs in your Craft repository by name. Search for docs by tag by starting your query with `#`.
+Use `Search Docs` to search for docs in your Craft repository by name. Search for docs by tag by starting your query with `#`. From a result, you can open the doc in Craft, create a Raycast Quicklink, or copy the Craft link.
